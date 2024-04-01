@@ -115,8 +115,11 @@ img {
   top: -5px;
   width: 100%;
   background: #000;
-  color: #666;
+  color: #c30000;
   padding: 1em;
+}
+.maintitle{
+  font-family:fantasy;
 }
 
 .row {
@@ -157,11 +160,12 @@ main {
 .album {
     width: 300px;
     margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #636363;
+    border-radius: 8px;
     overflow: hidden;
     position: relative; /* Añadimos posición relativa para permitir el posicionamiento absoluto de elementos */
     z-index: 5;
+    
 }
 
 /* Estilo del cuadro de texto que aparecerá al hacer hover */
@@ -182,7 +186,7 @@ main {
 
 /* Efecto de hover para intensificar el color del borde y mostrar el cuadro de texto */
 .album:hover {
-    border-color: #4CAF50; /* Cambia el color del borde al hacer hover */
+  border: 2px solid #c30000; /* Cambia el color del borde al hacer hover */
 }
 
 .album:hover::after {
@@ -210,3 +214,5 @@ main {
 .album-info h2 {
   margin-top: 0;
 }
+
+
